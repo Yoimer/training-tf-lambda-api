@@ -6,7 +6,7 @@ provider "aws" {
 
 terraform {
   backend "s3" {
-    bucket         = "iac-tf-bucket-s3"
+    bucket         = "iac-tf-bucket-s3-vzla"
     region         = "us-east-1"
     encrypt        = true
     key            = "demo/deploy.tfstate"

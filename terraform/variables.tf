@@ -31,13 +31,13 @@ variable "aws_region" {
 variable "aws_profile" {
   description = "AWS profile."
   type    = string
-  default = "roxsross"
+  default = "DVA-C01"
 }
 
 variable "repo_url" {
   description = "URL que usa el repositorio"
   type = string
-  default = "https://github.com/roxsross/training-tf-lambda-api"
+  default = "https://github.com/Yoimer/training-tf-lambda-api"
 }
 
 variable "lambda_package" {

@@ -1,6 +1,6 @@
 app_id         = "demo-serverless"
 app_env        = "dev"
 region         = "us-east-1"
-aws_profile    = "roxsross"
-repo_url       = "https://github.com/roxsross/training-tf-lambda-api"
+aws_profile    = "DVA-C01"
+repo_url       = "https://github.com/Yoimer/training-tf-lambda-api"
 lambda_package = "../function.zip"

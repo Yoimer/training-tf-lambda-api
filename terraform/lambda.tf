@@ -6,7 +6,8 @@ resource "aws_lambda_function" "hello_world" {
   timeout             = 10
   publish             = true
   filename              = var.lambda_package
-  source_code_hash      = filesha256(var.lambda_package)
+  # source_code_hash      = filebase64sha256(var.lambda_package)
+  source_code_hash = filebase64(var.lambda_package)
   role                  = aws_iam_role.lambda_exec.arn
   environment {
     variables = {
